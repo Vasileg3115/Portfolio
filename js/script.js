@@ -171,6 +171,6 @@ document.addEventListener("DOMContentLoaded", ()=> {
         // TODO: 5. Включить обработку события завершения игры
         clearInterval(intervalId);
         let modal = document.getElementById('game-over-modal');
-        modal.style.display = 'block';
+        modal.style.display = 'block';  
     });
 })
